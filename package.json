@@ -1,0 +1,20 @@
+{
+  "name": "@f/difference",
+  "description": "Subtract one list from another",
+  "repository": "git://github.com/micro-js/difference.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/filter-array": "^1.1.1",
+    "@f/has": "^1.0.0",
+    "@f/index": "^1.0.0"
+  },
+  "devDependencies": {
+    "@f/identity": "^1.1.1",
+    "tape": "^4.2.2"
+  }
+}
